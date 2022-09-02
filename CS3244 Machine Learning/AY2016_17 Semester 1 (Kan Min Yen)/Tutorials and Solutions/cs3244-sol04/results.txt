@@ -1,0 +1,70 @@
+SVC(C=0.1, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape=None, degree=2, gamma=0.001, kernel='linear',
+  max_iter=-1, probability=False, random_state=None, shrinking=True,
+  tol=0.001, verbose=False)
+accuracy for each fold =  [ 0.48507463  0.48507463  0.51620948  0.4798995   0.4861461 ]
+average accuracy =  0.490480864649
+
+SVC(C=1, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape=None, degree=2, gamma=0.001, kernel='linear',
+  max_iter=-1, probability=False, random_state=None, shrinking=True,
+  tol=0.001, verbose=False)
+accuracy for each fold =  [ 0.50497512  0.47512438  0.51620948  0.54020101  0.52644836]
+average accuracy =  0.512591669308
+
+SVC(C=10, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape=None, degree=2, gamma=0.001, kernel='linear',
+  max_iter=-1, probability=False, random_state=None, shrinking=True,
+  tol=0.001, verbose=False)
+accuracy for each fold =  [ 0.52487562  0.49253731  0.51371571  0.54271357  0.53652393]
+average accuracy =  0.522073228671
+
+SVC(C=0.1, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape=None, degree=2, gamma=0.001, kernel='poly',
+  max_iter=-1, probability=False, random_state=None, shrinking=True,
+  tol=0.001, verbose=False)
+accuracy for each fold =  [ 0.47512438  0.48756219  0.45386534  0.48994975  0.48110831]
+average accuracy =  0.477521992982
+
+SVC(C=1, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape=None, degree=2, gamma=0.001, kernel='poly',
+  max_iter=-1, probability=False, random_state=None, shrinking=True,
+  tol=0.001, verbose=False)
+accuracy for each fold =  [ 0.47761194  0.50248756  0.48877805  0.47738693  0.50629723]
+average accuracy =  0.490512344249
+
+SVC(C=10, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape=None, degree=2, gamma=0.001, kernel='poly',
+  max_iter=-1, probability=False, random_state=None, shrinking=True,
+  tol=0.001, verbose=False)
+accuracy for each fold =  [ 0.50995025  0.52985075  0.50374065  0.50753769  0.50881612]
+average accuracy =  0.511979090551
+
+SVC(C=0.1, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape=None, degree=2, gamma=0.001, kernel='rbf',
+  max_iter=-1, probability=False, random_state=None, shrinking=True,
+  tol=0.001, verbose=False)
+accuracy for each fold =  [ 0.47263682  0.47263682  0.4638404   0.48743719  0.47607053]
+average accuracy =  0.474524349148
+
+SVC(C=1, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape=None, degree=2, gamma=0.001, kernel='rbf',
+  max_iter=-1, probability=False, random_state=None, shrinking=True,
+  tol=0.001, verbose=False)
+accuracy for each fold =  [ 0.47263682  0.48258706  0.45137157  0.46733668  0.49370277]
+average accuracy =  0.473526981173
+
+SVC(C=10, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape=None, degree=2, gamma=0.001, kernel='rbf',
+  max_iter=-1, probability=False, random_state=None, shrinking=True,
+  tol=0.001, verbose=False)
+accuracy for each fold =  [ 0.48258706  0.47761194  0.46633416  0.46231156  0.50629723]
+average accuracy =  0.479028391314
+
+======= the best model:
+SVC(C=10, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape=None, degree=2, gamma=0.001, kernel='linear',
+  max_iter=-1, probability=False, random_state=None, shrinking=True,
+  tol=0.001, verbose=False)
+======= max validation accuracy:  0.522073228671
+======= test accuracy:  0.554
